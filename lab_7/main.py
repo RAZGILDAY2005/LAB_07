@@ -43,8 +43,8 @@ while True:
     if choice == "1":
         name = input("Введите имя работника: ")
         salary = input("Введите зарплату: ")
-        contacts_email = input("Введите email продавца: ")
-        contacts_phone = input("Введите телефон продавца: ")
+        contacts_email = input("Введите email работника: ")
+        contacts_phone = input("Введите телефон работника: ")
 
         result = workers.create_one({
             "name": name,
